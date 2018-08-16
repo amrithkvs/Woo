@@ -8589,6 +8589,15 @@ h5 {
   line-height: 2;
 }
 
+.nav-btn:hover {
+  background: #5A5BFE;
+  box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
+  color: #fff;
+  font-family: 'Poppins'
+  font-weight: 500;
+  line-height: 2;
+}
+
 .get-started-link:hover {
   background-color: #8FE7D0;
   color: #fff;
