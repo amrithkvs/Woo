@@ -42,7 +42,6 @@
 }
 
 html {
-  min-height: 100%;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -69,6 +68,7 @@ body {
   color: #212529;
   text-align: left;
   background: -webkit-linear-gradient(#212121,#660097);
+
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
