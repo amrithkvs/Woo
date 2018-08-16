@@ -60,14 +60,14 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Poppins", "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-color: #FFF;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #212121;
+  background: linear-gradient(#212121,#660097);
 }
 
 [tabindex="-1"]:focus {
@@ -567,28 +567,10 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -6702,7 +6684,7 @@ button.bg-dark:focus {
 }
 
 .p-0 {
-  padding: 0 !important;
+  padding: 0rem !important;
 }
 
 .pt-0,
@@ -8197,7 +8179,7 @@ ul {
 }
 
 section {
-  padding: 3rem 0;
+  padding: 1.8rem 0;
 }
 
 .section-heading {
@@ -8241,7 +8223,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212121;
+  background-color: transparent;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -8249,7 +8231,7 @@ img::-moz-selection {
 
 @media (min-width: 1200px) {
   #mainNav {
-    border-bottom: 1px solid #212121;
+    border-bottom: 0px solid #212121;
   }
 }
 
@@ -8338,7 +8320,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: #212121;
-    background-color: #212121;
+    background-color: #transparent;
     height: 100px;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
@@ -8349,7 +8331,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #FFF;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -8373,7 +8355,7 @@ img::-moz-selection {
 }
 
 #white-logo {
-  background-image: url("../img/logo@2x.png");
+  background-image: url("../img/dark@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 151px;
@@ -8388,7 +8370,7 @@ img::-moz-selection {
 }
 
 .navbar-shrink #white-logo {
-  background-image: url("../img/logo@2x.png");
+  background-image: url("../img/dark@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 151px;
@@ -8424,7 +8406,7 @@ img::-moz-selection {
 }
 
 .navbar-shrink {
-  border-bottom: 1px solid #212121 !important;
+  border-bottom: 0px solid #212121 !important;
 }
 
 .navbar-shrink .navbar-toggler-icon {
@@ -8554,7 +8536,7 @@ h5 {
 .get-started-link {
   padding: .7rem 1.7rem;
   border-radius: 4px;
-  background: linear-gradient(#30AEB8,#5A5BFE);
+  background: linear-gradient(#2FACB6,#5D58FC);
   box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
   color: #fff;
   font-size: 18px;
@@ -8566,14 +8548,11 @@ h5 {
 }
 
 .get-started-link:hover {
-  background-color: #8FE7D0;
-  color: #fff;
+  background-color: #000
 }
 
-.get-started-link:active {
-  background-color: #67CAB0;
-  color: #fff;
-}
+
+
 
 .nav-btn {
   padding-top: 10px;
@@ -8581,7 +8560,7 @@ h5 {
   padding-left: 16px;
   padding-right: 16px;
   border-radius: 4px;
-  background: linear-gradient(#30AEB8,#5A5BFE);
+  background: linear-gradient(#2FACB6,#5D58FC);
   box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
   color: #fff;
   font-family: 'Poppins'
@@ -8590,7 +8569,7 @@ h5 {
 }
 
 .nav-btn:hover {
-  background: #5A5BFE;
+  background: #5D58FC;
   box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
   color: #fff;
   font-family: 'Poppins'
@@ -8599,12 +8578,12 @@ h5 {
 }
 
 .get-started-link:hover {
-  background-color: #8FE7D0;
+  background-color: #5D58FC;
   color: #fff;
 }
 
 .get-started-link:active {
-  background-color: #67CAB0;
+  background-color: #5D58FC;
   color: #fff;
 }
 
@@ -8794,6 +8773,10 @@ h5 {
   color: #8493a8;
 }
 
+#footer .footer-last-row:hover {
+  color: #fff;
+}
+
 @media (max-width: 767px) {
   #footer .footer-box-links {
     margin: 0 -15px !important;
@@ -8818,6 +8801,17 @@ h5 {
   line-height: 2;
   letter-spacing: normal;
   color: #8493a8;
+  font-family: 'Poppins', sans-serif;
+}
+
+#footer .footer-box-links a:hover {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
