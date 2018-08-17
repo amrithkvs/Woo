@@ -3480,7 +3480,7 @@ tbody.collapse.show {
 }
 
 .nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
+.nav-tabs .nav-link.show .nav-link {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
@@ -8261,11 +8261,16 @@ img::-moz-selection {
   font-weight: 400;
   line-height: 25px;
   color: #fff;
+  text-decoration: none;
+  border-bottom: transparent solid 1px;
+  padding-bottom: 5px;
+
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #5A5BFE;
+  color: #fff;;
+  border-bottom: #5A5BFE solid 4px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -8329,15 +8334,16 @@ img::-moz-selection {
     padding: 0.5rem 1rem;
   }
   #mainNav.navbar-shrink {
-    background-color: #212121;
+    background-color: transparent;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #fff;
+    color: #212121;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #5A5BFE;
+    color: #212121;
+    border-bottom: #5A5BFE solid 4px
   }
 }
 
@@ -8490,7 +8496,7 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #75869d !important;
+  background-color: #75869d ;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -8541,6 +8547,7 @@ h5 {
   background: linear-gradient(#2FACB6,#5D58FC);
   box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
   color: #fff;
+  font-family: 'Poppins';
   font-size: 18px;
   font-weight: 600;
   font-style: normal;
@@ -8550,10 +8557,13 @@ h5 {
 }
 
 .get-started-link:hover {
-  background-color: #000
+  background: #000;
+  box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: 600;
+  line-height: 1.39;
 }
-
-
 
 
 .nav-btn {
@@ -8571,7 +8581,7 @@ h5 {
 }
 
 .nav-btn:hover {
-  background: #5D58FC;
+  background: #2FACB6;
   box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
   color: #fff;
   font-family: 'Poppins'
@@ -8580,7 +8590,7 @@ h5 {
 }
 
 .get-started-link:hover {
-  background-color: #5D58FC;
+  background-color: #2FACB6;
   color: #fff;
 }
 
