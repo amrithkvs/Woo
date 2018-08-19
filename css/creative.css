@@ -8270,7 +8270,7 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #fff;;
-  border-bottom: #5A5BFE solid 4px;
+  border-bottom: #5A5BFE solid 8px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -8573,11 +8573,17 @@ h5 {
   color: #fff;
   font-family: 'Poppins'
   font-weight: 500;
+  font-style: normal;
+  font-stretch:normal;
   line-height: 2;
+  letter-spacing: normal;
 }
+
+
 @media screen and (min-width: 1000px) {
   .nav-btn:hover {
     color:#fff;
+    text-decoration: none;
    -webkit-box-shadow:0 5px 15px rgba(47,172,182,1);
     box-shadow: 0 5px 15px rgba(47,172,182,1)
   }
