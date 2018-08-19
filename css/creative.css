@@ -8259,10 +8259,9 @@ img::-moz-selection {
   font-family: 'Poppins';
   font-size: 15px;
   font-weight: 400;
-  line-height: 25px;
   color: #fff;
   text-decoration: none;
-  border-bottom: transparent solid 1px;
+  border-bottom: transparent solid 5px;
   padding-bottom: 5px;
 
 }
@@ -8270,7 +8269,7 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #fff;;
-  border-bottom: #5A5BFE solid 8px;
+  border-bottom: #5A5BFE solid 5px !important;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -8340,12 +8339,12 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
-    border-bottom: #5A5BFE solid 8px
+    border-bottom: #5A5BFE solid 5px !important;
   }
 }
 
@@ -8355,13 +8354,12 @@ img::-moz-selection {
   background-size: contain;
   width: 151px;
   height: 44px;
-
 }
 
 @media (max-width: 767.98px) {
   #nav-logo {
     width: 103.7px;
-    height: 30px;
+    height: 300px;
   }
 }
 
